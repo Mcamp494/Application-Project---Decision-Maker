@@ -1,0 +1,25 @@
+Decision Maker application
+The goal of this application if for the user to be able to input choices, which will then be put through a RNG#
+the resulting choice will then take the users zipcode and use that to give directions by integrating google maps
+The user will be able to add the resturant choices. From these choices the program will pick a random choice from the list
+and if the User does not like that option then they can reject it by selecting
+ 'no' and the program will put out a new option.
+
+Warnings in place for incorrect inputs as the program will only accept strings for the inputs.
+
+
+
+For this if,else-if, else statements will be used and have to find way to integrate distance to destination.
+ Will have to do a controller method for this. User can only see the options to input the options and to lable the
+ option. After that the user will not see how it works until an ouput is genrated. with that then
+
+For the secure building process I have chosen to implement input validation, output encoding, and
+basic programming practices so far.
+
+Potential classes: User, Resturant (Subclasses?(Fast food, Dine-in)), Location
+
+
+
+ https://developers.google.com/maps/documentation/urls/get-started
+https://www.tutorialspoint.com/python_design_patterns/python_design_patterns_model_view_controller.htm
+https://www.tutorialspoint.com/python/python_classes_objects.htm
